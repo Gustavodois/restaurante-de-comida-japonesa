@@ -10,8 +10,25 @@
 </head>
 
 <body>
-
-    <p> Restaurante de comida japonesa </p>
+    <header>
+        <div class="container text-center">
+            <div class="cabecalho">
+                <img src="img/logo.png" class="logo" height="150">       
+                <div class="nav-cabecalho">
+                <h1 class="titulo"> Restaurante de comida japonesa </h1>  
+                    <nav>
+                        <a href="#">Home</a>
+                        <a href="#">Filmes</a>
+                        <a href="#">Notícias</a>
+                        <a href="#">Contato</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <?php
+    include "banner.php";
+    ?>
 
 
     <footer class="rodape">
