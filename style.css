@@ -18,7 +18,12 @@
     display: flex;
     align-items: center;
 }
+
 .nav-cabecalho{
     display: flex;
     flex-direction: column;
+}
+
+.navbar{
+    background-color: transparent;
 }
