@@ -27,13 +27,10 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link active" aria-current="page" href="https://www.tripadvisor.com.br/Restaurants-g1426464-Americana_State_of_Sao_Paulo.html">Italiana</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Features</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Pricing</a>
+                                    <a class="nav-link active" aria-current="page" href="https://www.tripadvisor.com.br/Restaurants-g303631-c29-Sao_Paulo_State_of_Sao_Paulo.html">Mexicana</a>
                                 </li>
                             </ul>
                         </div>
