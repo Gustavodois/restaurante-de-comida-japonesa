@@ -9,34 +9,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="top">
 
- 
+
     <header>
-    <div class="container text-center">
-        <div class="cabecalho">
-            <img src="img/logo.png" class="logo" height="150">
-            <div class="nav-cabecalho">
-                <h1 class="titulo"> Restaurantes de comida japonesa </h1>
-                <nav class="navbar navbar-expand-lg bg-transparent">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="index.php">Home</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="https://www.tripadvisor.com.br/Restaurants-g1426464-Americana_State_of_Sao_Paulo.html">Italiana</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="https://www.tripadvisor.com.br/Restaurants-g303631-c29-Sao_Paulo_State_of_Sao_Paulo.html">Mexicana</a>
-                                </li>
-                            </ul>
+        <div class="container text-center">
+            <div class="cabecalho">
+                <a href="index.php">
+                    <img src="img/logo.png" class="logo" height="150">
+                </a>
+                <div class="nav-cabecalho">
+                    <h1 class="titulo"> Restaurantes de comida japonesa </h1>
+                    <nav class="navbar navbar-expand-lg bg-transparent">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="index.php">Home</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Italiana</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Mexicana</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                </nav>
+                    </nav>
+                </div>
             </div>
-        </div>
-    
-</header>
+
+    </header>

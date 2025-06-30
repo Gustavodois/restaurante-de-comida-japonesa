@@ -19,7 +19,7 @@ include "banner.php";
 
         ?>
             <div class="col-3 mb-5">
-                <div class="card" style="width: 18rem;">
+                <div class="card shadow-bottom" style="width: 18rem;">
                     <img src="<?= $linha['foto']; ?>" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title"><?= $linha['nome_restaurante']; ?></h5>

@@ -14,6 +14,7 @@
     margin-bottom: 30px;
 }
 
+
 .cabecalho{
     display: flex;
     align-items: center;
@@ -27,6 +28,7 @@
 .navbar{
     background-color: transparent;
 }
+
 .horarios{
     width: 300px;
     justify-content: center;
@@ -35,3 +37,7 @@
     margin: auto;
     flex-direction: column;
 }
+
+.shadow-bottom {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
