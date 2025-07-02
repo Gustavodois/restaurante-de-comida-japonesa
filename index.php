@@ -12,7 +12,7 @@ include "banner.php";
 
         include "conexao.php";
 
-        $sql = "select * from restaurantes order by avaliacao desc limit 5";
+        $sql = "select * from restaurantes order by avaliacao desc";
         $resultado = mysqli_query($conexao, $sql);
 
         while ($linha = mysqli_fetch_assoc($resultado)) {
@@ -22,7 +22,7 @@ include "banner.php";
                 <div class="card shadow-bottom" style="width: 18rem;">
                     <img src="<?= $linha['foto']; ?>" class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title"><?= $linha['nome_restaurante']; ?></h5>
+                        <h5 class="card-title"><?= $linha['restaurante']; ?></h5>
                         <p class="card-text"><?= $linha['localizacao']; ?><br><?= $linha['categoria']; ?><br><span>⭐ <?= $linha['avaliacao']; ?>/5</span><br></p>
                         <a href="restaurante.php?id=<?= $linha['id'] ?>" class="btn btn-primary">Mais detalhes</a>
                     </div>

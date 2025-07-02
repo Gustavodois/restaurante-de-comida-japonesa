@@ -1,7 +1,7 @@
 <?php
     /* inicio da conexão com o BD*/
     $servidor = 'localhost';
-    $bd = 'bd_restaurante_japones';
+    $bd = 'bd_restaurantes_japones';
     $usuario = 'root';
     $senha = ''; 
 

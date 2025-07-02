@@ -19,11 +19,11 @@ while ($linha = mysqli_fetch_assoc($resultado)) {
                 <img src="<?= $linha['foto']; ?> " style="width: 450px;" class="img-fluid capa-filme">
             </div>
             <div class="col">
-                <h2><?= $linha['nome_restaurante']; ?> ⭐ <?= $linha['avaliacao']; ?>/5</h2>
+                <h2><?= $linha['restaurante']; ?> ⭐ <?= $linha['avaliacao']; ?>/5</h2>
                 <p><?= $linha['localizacao']; ?></p>
                 <p><strong>Categoria: </strong> <?= $linha['categoria']; ?> </p>
                 <p><strong>Cardapio: </strong> <?= $linha['cardapio']; ?> </p>
-                <p><strong>Entrega: </strong> <?= $linha['entrega']; ?> </p>
+                
                 <p><strong>Horarios: <br></strong> <?= str_replace("; ", "<br>", $linha['horario_atendimento']); ?></p>
                 <p><strong>Telefone: </strong> <?= $linha['telefone']; ?> </p>
             </div>
